@@ -1,8 +1,10 @@
 import React from "react";
+import "./Nav.css";
 
-function Nav(props) {
+function Nav () {
     return (
-        <div>Navigation Bar</div>
+        <div className="Nav">Navigation Bar</div>
+
     )
 }
 
