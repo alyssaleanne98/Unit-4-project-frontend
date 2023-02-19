@@ -1,4 +1,7 @@
-.Nav {
-    color: rgb(158, 23, 11);
-    height: 50px;
+.container {
+    color: rgb(12, 9, 9);
+    height: 200px;
+}
+.sub-section {
+    text-align: center;
 }
