@@ -1,16 +1,18 @@
 .container {
     color: #94bfa9;
     height: 225px;
-    background-color: #d8d5d2;
+    background-color: #e6e3e1;
     
 }
 .app-title {
     padding: 20px;
     font-family: "prata";
-}
-:hover{
     color: rgb(232, 194, 207);
 }
+:hover {
+    color: rgb(232, 194, 207); 
+}
+
 
 .link-cards{
     color: black;

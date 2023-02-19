@@ -5,17 +5,20 @@ import "./Section.css"
 const Section = () => {
     return (
         <main>
+            
             <section className="diagram" id='image-section'
-             data-scroll //This attribute makes this section an independent scrollable container
-             data-scroll-speed="9"
-             data-scroll-section
+            //  data-scroll //This attribute makes this section an independent scrollable container
+            //  data-scroll-speed="9"
+            //  data-scroll-section
             >
                 <img className="brain-diagram"src="https://mhanational.org/sites/default/files/Picture1_0.png" ></img>
             </section>
 
 
             <section className='about' id='about-section'>
-                <h1>this is the about section</h1>
+                <h2 className="heading">THE HUMAN BRAIN EXPLAINED:</h2>
+                {/* <p>BY ALYSSA CERVANTES</p>
+                <p className="paragraph">The brain is an incredible yet mysterious three-pound organ that controls all functions of the body, interprets information from the outside world, and embodies the essence of the mind and soul.</p> */}
             </section>
 
 
