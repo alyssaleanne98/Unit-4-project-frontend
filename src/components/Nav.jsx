@@ -20,7 +20,7 @@ const Nav = () => {
             </Link>
 
             <Link className="link-contact" activeClass="active" to="footer-section" spy={true} duration={400}>
-                 Contact us
+                 CONTACT 
             </Link>
         </div>
 

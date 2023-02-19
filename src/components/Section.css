@@ -22,7 +22,7 @@
     justify-content: center;
   }
   .about{
-    background-color: rgb(53, 9, 232);
+    background-color: rgb(245, 244, 247);
   }
   .cards {
     background-color: goldenrod;
@@ -32,3 +32,7 @@
     color: green;
     height: 250px;
   }
+  .brain-diagram {
+    height: 630px;
+  }
+  
