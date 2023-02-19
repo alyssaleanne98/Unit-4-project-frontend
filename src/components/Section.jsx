@@ -18,7 +18,7 @@ const Section = () => {
                 <h1>This is the flashcard section</h1>
             </section>
 
-            <section className='footer'>
+            <section className='footer' id='footer-section'>
                 <h1>This is the footer section</h1>
             </section>
         </main>

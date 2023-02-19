@@ -11,12 +11,16 @@ const Nav = () => {
             </div>
 
 
-            <Link activeClass="active" to="about-section" spy={true} duration={400}>
+            <Link className="link-about" activeClass="active" to="about-section" spy={true} duration={400}>
                 ABOUT 
             </Link>
 
-            <Link activeClass="active" to="cards-section" spy={true} duration={400}>
+            <Link className="link-cards" activeClass="active" to="cards-section" spy={true} duration={400}>
                  HEALTH
+            </Link>
+
+            <Link className="link-contact" activeClass="active" to="footer-section" spy={true} duration={400}>
+                 Contact us
             </Link>
         </div>
 

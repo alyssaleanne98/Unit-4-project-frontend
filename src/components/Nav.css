@@ -1,7 +1,30 @@
 .container {
-    color: rgb(12, 9, 9);
+    color: #94bfa9;
     height: 200px;
+    background-color: #D9D6D2;
+    
 }
-.sub-section {
-    text-align: center;
+.app-title {
+    padding: 20px;
+    font-family: "prata";
 }
+:hover{
+    color: rgb(232, 194, 207);
+}
+.link-cards{
+    color: black;
+    padding: 10px;
+    border-left: 1.9px solid black;
+}
+.link-about{
+    color: black;
+    padding: 10px;  
+}
+.link-contact{
+    color: black;
+    padding: 10px; 
+    border-left: 1.9px solid black; 
+}
+
+
+
