@@ -1,49 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .App {
-    text-align: center;
-  }
-  h1{
-    font-size: 5rem;
-    font-weight: bolder;
-  }
-  p {
-    font-size: 3rem;
-    margin: 1rem;
-  }
-  section {
-    height: 100vh;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .about{
-    background-color: rgb(245, 244, 247);
-    color: black;
-    font-size: 20px;
-    
-  }
-  .heading{
-    font-size: 40px;
-    
-    
-  }
-  .paragraph{
-    font-size: 25px;
-  }
-  .cards {
-    background-color: goldenrod;
-  }
-  .footer {
-    background-color: whitesmoke;
-    color: green;
-    height: 250px;
-  }
-  .brain-diagram {
-    height: 630px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+section {
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  background-color: rgb(245, 244, 247);
+  color: black;
+  font-size: 20px;
+
+}
+
+.heading {
+  font-size: 40px;
+
+
+}
+
+.paragraph {
+  font-size: 25px;
+}
+
+.cards {
+  background-color: goldenrod;
+}
+
+.footer {
+  background-color: whitesmoke;
+  height: 300px;
+  position: relative;
+  font-family: "prata";
+  width: 100%;
   
+
+}
+
+.footer-heading {
+  color: rgb(43, 32, 129);
+  font-size: 35px;
+  position: absolute;
+  top: 50px;
+}
+
+/* .sub-heading {
+  font-size: 15px;
+  color: red;
+ 
+ 
+} */
+
+.email-icon {
+  color: red;
+  height: 100px;
+  
+}
+
+
+
+.brain-diagram {
+  height: 630px;
+}

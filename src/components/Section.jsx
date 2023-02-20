@@ -1,5 +1,6 @@
 import React from "react";
 import "./Section.css"
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 const Section = () => {
@@ -28,7 +29,9 @@ const Section = () => {
 
 
             <section className='footer' id='footer-section'>
-                <h1>This is the footer section</h1>
+              <div className="footer-heading">Get in touch</div> 
+              <div className="sub-heading">testing</div>
+              <MailOutlineIcon className="email-icon" />
             </section>
         </main>
     );
