@@ -72,9 +72,12 @@ section {
 } */
 
 .email-icon {
-  color: red;
-  height: 100px;
+  color: rgb(50, 33, 115);
+  font-size: 10px;
   
+}
+.linkedIn-icon {
+  color: navy;
 }
 
 

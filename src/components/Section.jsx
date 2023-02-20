@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section.css"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 const Section = () => {
@@ -30,8 +31,8 @@ const Section = () => {
 
             <section className='footer' id='footer-section'>
               <div className="footer-heading">Get in touch</div> 
-              <div className="sub-heading">testing</div>
-              <MailOutlineIcon className="email-icon" />
+              <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
+              <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
             </section>
         </main>
     );
