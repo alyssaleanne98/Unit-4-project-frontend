@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from 'react-scroll';
+// import Create from "../pages/Create";
 
 const Nav = () => {
     return (
@@ -17,6 +18,10 @@ const Nav = () => {
 
             <Link className="link-cards" activeClass="active" to="cards-section" spy={true} duration={400}>
                  HEALTH
+            </Link>
+
+            <Link className="link-cards" activeClass="active" to="/create">
+                 CREATE
             </Link>
 
             <Link className="link-contact" activeClass="active" to="footer-section" spy={true} duration={400}>
