@@ -7,7 +7,9 @@ Author: Alyssa Cervantes
 Headspace is an application that provides fun facts about your brain and exercised on how to improve overall brain health
 
 ### User Stories
-Trello: https://trello.com/b/71ppwnIV/unit-4-project-headspace
+- Trello: https://trello.com/b/71ppwnIV/unit-4-project-headspace
+
+- Netlify: https://bejewelled-tarsier-19a69e.netlify.app/
 
 ### Wireframes
 
@@ -25,8 +27,5 @@ Node
 
 ### Getting Started:
 
-- Trello board:
-- Netlify: 
-- Heroku
 
 ### Future Enhancements:
