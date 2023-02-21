@@ -2,6 +2,8 @@ import React from "react";
 import "./Section.css"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { BrandingWatermarkOutlined } from "@mui/icons-material";
 
 
 const Section = () => {
@@ -31,8 +33,13 @@ const Section = () => {
 
             <section className='footer' id='footer-section'>
               <div className="footer-heading">Get in touch</div> 
+              <div className="sub-heading"> I'd love to hear from you! Reach out say hello, provide feedback, or ask for my resume. </div>
+              
+              <span className="icons">
               <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
               <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
+              <GitHubIcon className="github-icon">Github</GitHubIcon>
+              </span>
             </section>
         </main>
     );
