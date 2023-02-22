@@ -1,64 +1,34 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useParams, useNavigate } from "react-router";
 
-export default function Index({ cards, createCards }) {
-    const [form, setForm] = useState({
-        title: "",
-        description: "",
-    });
+const Cards = ({ cards, updateCards, deleteCards }) => {
+    const { id } = useParams();
+    const card = cards.find((element) => element.id === parseInt(id));
+    const navigate = useNavigate();
+
+    const [editForm, setEditForm] = useState(card);
 
     const handleChange = (evt) => {
-        setForm({
-            ...form,
+        setEditForm({
+            ...editForm,
             [evt.target.name]: evt.target.value,
         });
     };
 
-    const handleSubmit = (evt) => {
-        evt.preventDefault();
-        createCards(form);
-        setForm({
-            title: "",
-            description: "",
-        });
+    const removeCards = () => {
+        deleteCards(id);
+        navigate("/cards");
     };
 
-    //loaded function
-    const loaded = () =>
-        cards.map((card) => (
-            <div key={card.id} className="card">
-                <Link to={`/cards/${card.id}`}>
-                    <h1>{card.title}</h1>
-                </Link>
-                <h3>{card.description}</h3>
-            </div>
-        ));
-
-    const loading = () => <h1>Loading</h1>;
-
     return (
-        <section>
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    name="title"
-                    placeholder="title"
-                    value={form.title}
-                    onChange={handleChange}
-                />
-                <input
-                    type="text"
-                    name="description"
-                    placeholder="description"
-                    value={form.image}
-                    onChange={handleChange}
-                />
-                <input type="submit" value="Submit" />
-
-            </form>
-            {cards ? loaded() : loading()}
-        </section>
+        <div>
+            <h1>{card.title}</h1>
+            <p>{card.description}</p>
+            <button id="Delete" onClick={removeCards}>
+                Delete
+            </button>
+        </div>
     )
-
-
 }
+
+export default Cards 
