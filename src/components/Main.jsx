@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Index from "../pages/Index/Index";
 import Show from "../pages/Show/Show";
 import Create from "../pages/Create/Create";
+import Card from "../components/Card"
 
 
 

@@ -3,19 +3,20 @@ import "./Section.css"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Component from "../components/Card"
 
 
 
-const Section = ({cards}) => {
+const Section = ({ card }) => {
     return (
         <main>
-            
+
             <section className="diagram" id='image-section'
             //  data-scroll //This attribute makes this section an independent scrollable container
             //  data-scroll-speed="9"
             //  data-scroll-section
             >
-                <img className="brain-diagram"src="https://mhanational.org/sites/default/files/Picture1_0.png" ></img>
+                <img className="brain-diagram" src="https://mhanational.org/sites/default/files/Picture1_0.png" ></img>
             </section>
 
 
@@ -27,19 +28,19 @@ const Section = ({cards}) => {
 
 
             <section className='cards' id='cards-section'>
-                {cards}
+                <Component className="cards-component"/>
             </section>
 
 
             <section className='footer' id='footer-section'>
-              <div className="footer-heading">Get in touch</div> 
-              <div className="sub-heading"> I'd love to hear from you! Reach out say hello, provide feedback, or ask for my resume. </div>
-              
-              <span className="icons">
-              <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
-              <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
-              <GitHubIcon className="github-icon">Github</GitHubIcon>
-              </span>
+                <div className="footer-heading">Get in touch</div>
+                <div className="sub-heading"> I'd love to hear from you! Reach out say hello, provide feedback, or ask for my resume. </div>
+
+                <span className="icons">
+                    <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
+                    <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
+                    <GitHubIcon className="github-icon">Github</GitHubIcon>
+                </span>
             </section>
         </main>
     );

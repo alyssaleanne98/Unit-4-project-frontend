@@ -20,7 +20,7 @@ const Nav = () => {
                  HEALTH
             </Link>
 
-            <Link className="link-cards" activeClass="active" to="/create">
+            <Link className="link-cards" activeClass="active" to="/cards/create">
                  CREATE
             </Link>
 
