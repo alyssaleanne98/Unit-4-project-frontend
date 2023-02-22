@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 
-const Section = () => {
+const Section = ({cards}) => {
     return (
         <main>
             
@@ -27,7 +27,7 @@ const Section = () => {
 
 
             <section className='cards' id='cards-section'>
-                <h1>This is the flashcard section</h1>
+                {cards}
             </section>
 
 

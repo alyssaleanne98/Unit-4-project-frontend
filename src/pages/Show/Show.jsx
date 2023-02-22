@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router";
 
 const Cards = ({ cards, updateCards, deleteCards }) => {
     const { id } = useParams();
-    const card = cards.find((element) => element.id === parseInt(id));
+    const card = cards?.find((element) => element.id === parseInt(id));
     const navigate = useNavigate();
 
     const [editForm, setEditForm] = useState(card);
@@ -22,8 +22,8 @@ const Cards = ({ cards, updateCards, deleteCards }) => {
 
     return (
         <div>
-            <h1>{card.title}</h1>
-            <p>{card.description}</p>
+            <h1>{card?.title}</h1>
+            <p>{card?.description}</p>
             <button id="Delete" onClick={removeCards}>
                 Delete
             </button>
