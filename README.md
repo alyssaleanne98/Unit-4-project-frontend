@@ -13,11 +13,15 @@ Headspace is an application that provides fun facts about your brain and exercis
 
 - Figma: https://www.figma.com/file/bxwygmEyvQa6WLiB9SH0zl/Untitled?node-id=0%3A1&t=vc1K1sBDFefFrV2I-0
 
+### ERD
+![Alt text](Screen%20Shot%202023-02-22%20at%205.20.51%20PM.png)
+
+
 ### Wireframes
 ![Alt text](Screen%20Shot%202023-02-22%20at%205.16.27%20PM.png)
 ![Alt text](Screen%20Shot%202023-02-22%20at%205.16.48%20PM.png)
 ![Alt text](Screen%20Shot%202023-02-22%20at%205.16.56%20PM.png)
-
+![Alt text](Screen%20Shot%202023-02-22%20at%205.17.06%20PM.png)
 
 
 ### Screenshots
@@ -25,10 +29,10 @@ Headspace is an application that provides fun facts about your brain and exercis
 
 ### Technologies used:
 
-Diango framework
+Diango
 Postgres 
-React framework
-Node
+React.js
+Node.js
 
 
 ### Getting Started:
