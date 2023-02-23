@@ -67,6 +67,11 @@ export default function Main() {
                     element={<Index 
                     cards={cards} />}
                 />
+                <Route
+                    path="/cards/create" 
+                    element={<Create
+                    cards={cards} />}
+                />
 
                 <Route
                     path="/cards/:id"
