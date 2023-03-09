@@ -11,7 +11,7 @@ const Create = ({cards, createCards}) => {
     const handleChange = (evt) => {
         setForm({
             ...form,
-            [evt.target.title]: evt.target.value,
+            [evt.target.name]: evt.target.value,
         });
     };
 
@@ -27,7 +27,7 @@ const Create = ({cards, createCards}) => {
     // loaded function
     const loaded = () => {
         return cards.map((card) => (
-            <div key={card._id} className="card">
+            <div key={card.id} className="card">
                 <h1>{card.title}</h1>
             </div>
         ))
@@ -39,6 +39,10 @@ const Create = ({cards, createCards}) => {
 
 
     return (
+
+        <>
+        {cards ? loaded() : loading()} 
+
         <section>
             <form onSubmit={handleSubmit}>
                 <input
@@ -49,10 +53,18 @@ const Create = ({cards, createCards}) => {
                 onChange={handleChange}
                 />
 
-                <input type ="submit" value="Create Flashcard" />
+                <input 
+                type ="submit" 
+                value={form.description}
+                name="description"
+                placeholder="description"
+                onChange={handleChange}
+                />
+                <input type="submit" value= "Create Flashcard" />
             </form>
-            {cards ? loaded() : loading()} 
+            
         </section>
+        </>
     )
 }
 
