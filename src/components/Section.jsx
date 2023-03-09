@@ -3,7 +3,8 @@ import "./Section.css"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Component from "../components/Card"
+import Component from './Card'
+//updated import for component 
 
 
 
