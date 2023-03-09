@@ -16,7 +16,7 @@ console.log("hi")
   return (
     <div className="App">
       <Nav />
-      <Section />
+      {/* <Section /> */}
       <Main />
     </div>
   );

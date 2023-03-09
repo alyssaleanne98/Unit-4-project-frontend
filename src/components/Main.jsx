@@ -63,14 +63,18 @@ export default function Main() {
         <main>
             <Routes>
                 <Route
-                    path="/" 
+                    path="/cards" 
                     element={<Index 
-                    cards={cards} />}
+                    cards={cards}
+                    
+
+                    />}
                 />
                 <Route
                     path="/cards/create" 
                     element={<Create
-                    cards={cards} />}
+                        cards={cards}
+                        createCards={createCards}/>}
                 />
 
                 <Route

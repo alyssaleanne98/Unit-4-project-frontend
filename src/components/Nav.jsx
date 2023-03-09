@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from 'react-scroll';
+import { Link as Linker} from "react-router-dom";
 // import Create from "../pages/Create";
 
 const Nav = () => {
@@ -20,9 +21,9 @@ const Nav = () => {
                  HEALTH
             </Link>
 
-            <Link className="link-cards" activeClass="active" to="/cards/create">
+            <Linker to="/cards/create" className="link-cards" activeClass="active" >
                  CREATE
-            </Link>
+            </Linker>
 
             <Link className="link-contact" activeClass="active" to="footer-section" spy={true} duration={400}>
                  CONTACT 
