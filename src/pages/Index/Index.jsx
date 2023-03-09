@@ -4,6 +4,8 @@ import Component from "../../components/Card"
 
 
 function Index({ cards }) {
+    console.log(cards)
+    console.log("hello")
 
     // Loaded function
     const loaded = () => {
