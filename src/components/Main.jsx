@@ -37,7 +37,7 @@ export default function Main() {
 
     //Delete
     const deleteCards = async (id) => {
-        await fetch(URL + id, {method: "DELETE"});
+        await fetch(URL + id, { method: "DELETE" });
         getCards();
     };
 
@@ -57,20 +57,23 @@ export default function Main() {
     useEffect(() => {
         getCards()
         console.log(cards)
-    },[])
+    }, [])
 
     return (
         <main>
             <Routes>
                 <Route
-                    path="/" 
-                    element={<Index 
-                    cards={cards} />}
+                    path="/cards"
+                    element={<Index
+                        cards={cards}
+
+                    />}
                 />
                 <Route
-                    path="/cards/create" 
+                    path="/cards/create"
                     element={<Create
-                    cards={cards} />}
+                        cards={cards}
+                        createCards={createCards}/>}
                 />
 
                 <Route
@@ -86,4 +89,6 @@ export default function Main() {
             </Routes>
         </main>
     );
-}         
+}
+
+// line 66: route path did not match the path in backend 
