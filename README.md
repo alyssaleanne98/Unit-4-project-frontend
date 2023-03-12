@@ -29,10 +29,10 @@ Headspace is an application that provides fun facts about your brain and exercis
 
 ### Technologies used:
 
-Diango
-Postgres 
-React.js
-Node.js
+<a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=bootstrap,css,django,postgres,py,postman,react,netlify" />
+  </a>
+</p>
 
 
 ### Getting Started:
