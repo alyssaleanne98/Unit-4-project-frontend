@@ -1,7 +1,7 @@
 // import Card from "./components/Card";
 // import { Link } from "react-router-dom"
 import Component from "../../components/Card"
-import "../../components/Section.css"
+import "./Index.css"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -32,9 +32,9 @@ function Index({ cards }) {
             <main>
 
             <section className="diagram" id='image-section'
-            //  data-scroll //This attribute makes this section an independent scrollable container
-            //  data-scroll-speed="9"
-            //  data-scroll-section
+             data-scroll //This attribute makes this section an independent scrollable container
+             data-scroll-speed="9"
+             data-scroll-section
             >
                 <img className="brain-diagram" src="https://mhanational.org/sites/default/files/Picture1_0.png" ></img>
             </section>
@@ -59,7 +59,10 @@ function Index({ cards }) {
                 <span className="icons">
                     <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
                     <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
+
+                    
                     <GitHubIcon className="github-icon">Github</GitHubIcon>
+                    
                 </span>
             </section>
         </main>
@@ -73,9 +76,4 @@ function Index({ cards }) {
 
 export default Index;
 
- // <div className="all-cards">
-            //     <div key={card._id} className="card">
-            //             <h2>{card.title}</h2>
-            // //             <p>{card.description}</p>
-            //     </div>
-            // </div>
+ 
