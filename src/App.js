@@ -1,5 +1,4 @@
 import Nav from "./components/Nav";
-import Section from "./components/Section";
 import Main from "./components/Main";
 // import { Routes, Route } from "react-router-dom"
 // // import Create from "./pages/Create/Create.jsx";

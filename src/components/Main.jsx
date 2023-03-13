@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Index from "../pages/Index/Index";
 import Show from "../pages/Show/Show";
 import Create from "../pages/Create/Create";
-import Card from "../components/Card"
+// import Card from "../components/Card"
 
 
 
@@ -37,7 +37,7 @@ export default function Main() {
 
     //Delete
     const deleteCards = async (id) => {
-        await fetch(URL + id, { method: "DELETE" });
+        await fetch(URL + id, {method: "DELETE"});
         getCards();
     };
 
@@ -57,20 +57,21 @@ export default function Main() {
     useEffect(() => {
         getCards()
         console.log(cards)
-    }, [])
+    },[])
 
     return (
         <main>
             <Routes>
                 <Route
-                    path="/cards"
-                    element={<Index
-                        cards={cards}
+                    path="/cards" 
+                    element={<Index 
+                    cards={cards}
+                    
 
                     />}
                 />
                 <Route
-                    path="/cards/create"
+                    path="/cards/create" 
                     element={<Create
                         cards={cards}
                         createCards={createCards}/>}

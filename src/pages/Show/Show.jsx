@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router";
 
 const Cards = ({ cards, updateCards, deleteCards }) => {
     const { id } = useParams();
-    const card = cards?.find((element) => element._id === parseInt(id));
+    const card = cards?.find((element) => element.id === parseInt(id));
     const navigate = useNavigate();
 
     const [editForm, setEditForm] = useState(card);

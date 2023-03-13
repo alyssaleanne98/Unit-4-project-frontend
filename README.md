@@ -30,12 +30,12 @@ Headspace is an application that provides fun facts about your brain and exercis
 ### Technologies used:
 
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap,css,django,postgres,py,postman,react,netlify" />
+    <img src="https://skillicons.dev/icons?i=css,django,postgres,py,postman,react,netlify" />
   </a>
 </p>
 
 
-### Getting Started:
+
 
 
 ### Future Enhancements:

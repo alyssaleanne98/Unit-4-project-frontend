@@ -27,9 +27,13 @@ const Create = ({cards, createCards}) => {
     // loaded function
     const loaded = () => {
         return cards.map((card) => (
+            <>
+
             <div key={card.id} className="card">
                 <h1>{card.title}</h1>
             </div>
+
+                </>
         ))
     }
 
@@ -39,32 +43,33 @@ const Create = ({cards, createCards}) => {
 
 
     return (
-
         <>
-        {cards ? loaded() : loading()} 
+            {cards ? loaded() : loading()} 
+            <section>
+                    <form onSubmit={handleSubmit}>
+                        <input
+                        type="text"
+                        value={form.title}
+                        name="title"
+                        placeholder="title"
+                        onChange={handleChange}
+                    />
+                    {/* had to have this according to your form */}
+                        <input
+                        type="text"
+                        value={form.description}
+                        name="description"
+                        placeholder="description"
+                        onChange={handleChange}
+                        />
+        
+                        <input type ="submit" value="Create Flashcard" />
+                    </form>
 
-        <section>
-            <form onSubmit={handleSubmit}>
-                <input
-                type="text"
-                value={form.title}
-                title="title"
-                placeholder="title"
-                onChange={handleChange}
-                />
+                </section>
 
-                <input 
-                type ="submit" 
-                value={form.description}
-                name="description"
-                placeholder="description"
-                onChange={handleChange}
-                />
-                <input type="submit" value= "Create Flashcard" />
-            </form>
-            
-        </section>
         </>
+
     )
 }
 
