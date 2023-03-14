@@ -44,9 +44,23 @@ function Index({ cards }) {
                 <section className='about' id='about-section'>
                     <div className="sub-section"> 
                         <h2 className="heading">KNOW YOUR BRAIN:</h2>
-                        <p>The human brain is the command center for the human nervous system -- containing billions of nerve cells that coordinate emotion, behavior, thought, movement, and sensation, breathing, vision, temperature, and basically every process that regulates our body. How does the brain work? Our brains send and receive chemical and electrical signals throughout our body.</p>
-                        {/* <p>BY ALYSSA CERVANTES</p>
-                <p className="paragraph">The brain is an incredible yet mysterious three-pound organ that controls all functions of the body, interprets information from the outside world, and embodies the essence of the mind and soul.</p> */}
+                        <p className="p-content">The human brain is the command center for the human nervous system -- containing billions of nerve cells that coordinate emotion, behavior, thought, movement, and sensation, breathing, vision, temperature, and basically every process that regulates our body. How does the brain work? Different parts of your brain have different functions:</p>
+                        
+                        <div className="card-functions">
+                            <h3 className="card-functions-one">The cerebrum</h3>
+                            <p className="card-paragraph">paragraph</p>
+                        </div>
+
+                        <div className="card-functions">
+                            <h3 className="card-functions-two">The cerebellum</h3>
+                            <p className="card-paragraph">paragraph</p>
+                        </div>
+
+                        <div className="card-functions">
+                            <h3 className="card-functions-three">The brain stem</h3>
+                            <p className="card-paragraph">paragraph</p>
+                        </div>
+                        
                     </div>
                 </section>
 
