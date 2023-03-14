@@ -8,32 +8,32 @@
     padding: 20px;
     font-family: "prata";
     color: rgb(149, 205, 156);
+    
+}
+.app-title:hover {
     animation: bounce;
     animation-duration: 2s;
-    --animate-repeat: 5;
+    --animate-repeat: infinite;
 }
-/* :hover {
-    color: rgb(232, 194, 207); 
-} */
 
 
 .link-cards{
     color: black;
-    padding: 16px;
-    font-size: 15px;
-    border-left: 1px solid black;
+    padding: 20px;
+    font-size: 17px;
+    /* border-left: 1px solid black; */
     
 }
 .link-about{
     color: black;
-    padding: 16px;  
-    font-size: 15px;
+    padding: 20px;  
+    font-size: 17px;
 }
 .link-contact{
     color: black;
-    padding: 16px; 
-    border-left: 1px solid black; 
-    font-size: 15px;
+    padding: 20px; 
+    /* border-left: 1px solid black;  */
+    font-size: 17px;
 }
 
 

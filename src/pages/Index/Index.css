@@ -27,10 +27,14 @@
   }
   
   .about {
-    background-color: rgb(245, 244, 247);
+    background-color: rgb(212, 132, 95);
     color: black;
     font-size: 20px;
-  
+  }
+  .sub-section {
+    height: 550px;
+    width: 550px;
+    background-color: white;
   }
   
   .heading {
