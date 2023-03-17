@@ -21,6 +21,8 @@
     color: black;
     padding: 20px;
     font-size: 17px;
+    font-family: "prata";
+    
     /* border-left: 1px solid black; */
     
 }
@@ -28,12 +30,14 @@
     color: black;
     padding: 20px;  
     font-size: 17px;
+    font-family: "prata";
 }
 .link-contact{
     color: black;
     padding: 20px; 
     /* border-left: 1px solid black;  */
     font-size: 17px;
+    font-family: "prata";
 }
 
 

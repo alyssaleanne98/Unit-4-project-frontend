@@ -56,7 +56,6 @@ export default function Main() {
 
     useEffect(() => {
         getCards()
-        console.log(cards)
     },[])
 
     return (
