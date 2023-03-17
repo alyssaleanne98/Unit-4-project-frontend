@@ -43,8 +43,8 @@ function Index({ cards }) {
 
                 <section className='about' id='about-section'>
                     <div className="sub-section"> 
-                        <h2 className="heading">KNOW YOUR BRAIN:</h2>
-                        <p className="p-content">The human brain is the command center for the human nervous system -- containing billions of nerve cells that coordinate emotion, behavior, thought, movement, and sensation, breathing, vision, temperature, and basically every process that regulates our body. How does the brain work? Different parts of your brain have different functions:</p>
+                        <h2 className="about-heading">KNOW YOUR BRAIN:</h2>
+                        <p className="about-par-content">The human brain is the command center for the human nervous system -- containing billions of nerve cells that coordinate emotion, behavior, thought, movement, and sensation, breathing, vision, temperature, and basically every process that regulates our body. How does the brain work? Different parts of your brain have different functions:</p>
                         
                         <div className="card-functions">
                             <h3 className="card-functions-one">The cerebrum</h3>
