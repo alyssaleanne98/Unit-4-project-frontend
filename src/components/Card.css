@@ -12,8 +12,9 @@
     margin: 30px;  
 }
 .cards-container:hover {
-    background-color: rgb(239, 229, 241);
+    transform: translateY(-10px);
 }
+
 
 .cards-title {
     font-size: 13px;
