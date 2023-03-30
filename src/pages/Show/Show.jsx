@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router";
+import "./Show.css";
 
 const Cards = ({ cards, updateCards, deleteCards }) => {
     const { id } = useParams();
@@ -21,9 +22,9 @@ const Cards = ({ cards, updateCards, deleteCards }) => {
     };
 
     return (
-        <div>
-            <h1>{card?.title}</h1>
-            <p>{card?.description}</p>
+        <div className="cards-show-container">
+            <h1 className="cards-show-title">{card?.title}</h1>
+            <p className="cards-show-desc">{card?.description}</p>
             <button id="Delete" onClick={removeCards}>
                 Delete
             </button>
