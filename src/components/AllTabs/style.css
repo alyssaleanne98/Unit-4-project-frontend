@@ -1,5 +1,6 @@
 .FirstTab p, 
-.SecondTab p {
+.SecondTab p,
+.ThirdTab p {
     font-size: 2rem;
     text-align: center;
 }
