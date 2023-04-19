@@ -1,1 +1,12 @@
-//TabNavItem - a component to represent a tab navigation item 
+import React from "react";
+
+const TabContent = ({id, activeTab, children}) => {
+    return (
+        activeTab === id ? <div className="TabContent">
+            {children} 
+        </div>
+        : null 
+    );
+};
+
+export default TabContent;
