@@ -5,16 +5,16 @@
     
 }
 .app-title {
-    padding: 20px;
+    padding: 25px;
     font-family: "prata";
     color: rgb(149, 205, 156);
     
 }
-.app-title:hover {
+/* .app-title:hover {
     animation: bounce;
     animation-duration: 2s;
     --animate-repeat: infinite;
-}
+} */
 
 
 .link-cards{
@@ -22,15 +22,14 @@
     padding: 20px;
     font-size: 17px;
     font-family: "prata";
-    
-    /* border-left: 1px solid black; */
-    
 }
 .link-about{
     color: black;
     padding: 20px;  
     font-size: 17px;
     font-family: "prata";
+    
+    
 }
 .link-contact{
     color: black;

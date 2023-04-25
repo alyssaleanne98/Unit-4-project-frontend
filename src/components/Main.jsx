@@ -8,7 +8,7 @@ import Create from "../pages/Create/Create";
 
 
 
-const URL = "http://localhost:8000/cards/";
+const URL = "http://localhost:8000";
 
 export default function Main() {
     const [cards, setCards] = useState(null);
@@ -62,7 +62,7 @@ export default function Main() {
         <main>
             <Routes>
                 <Route
-                    path="/cards" 
+                    path="/" 
                     element={<Index 
                     cards={cards}
                     
@@ -70,14 +70,14 @@ export default function Main() {
                     />}
                 />
                 <Route
-                    path="/cards/create" 
+                    path="cards/create" 
                     element={<Create
                         cards={cards}
                         createCards={createCards}/>}
                 />
 
                 <Route
-                    path="/cards/:id"
+                    path="cards/:id"
                     element={
                         <Show
                             cards={cards}
