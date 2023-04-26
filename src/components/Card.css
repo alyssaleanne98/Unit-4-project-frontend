@@ -1,31 +1,47 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.cards {
+    background-color: rgb(248, 248, 241);
+    /* display: inline-block;
+    position: relative; */
+    /* margin-bottom: 30px; */
+    border-radius: 6px;
+    color: rgba(170, 74, 74, 0.87); 
+    background: #874949; 
+    
+    /* margin-top: 30px;  */
+    /* padding: 30px; */
+    /* margin: 10px; */
+     
+}
 
 .cards-container {
-    background-color: rgb(248, 248, 241);
-    display: inline-block;
-    position: relative;
-    width: 85%;
-    /* margin-bottom: 30px; */
-    border-radius: 6px; 
-    color: rgba(0, 0, 0, 0.87);
-    background: #fff;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    margin: 30px; 
-    font-family: "prata"; 
+    width: 75%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: burlywood;
+    text-align: center;
+    max-width: 100%;
+    flex-basis: 100%; 
+    font-family: "prata";
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.cards-container:hover {
-    transform: translateY(-10px);
-}
-
 
 .cards-title {
     font-size: 13px;
     font-weight: 700;
-
 }
 
 .cards-desc {
     font-size: 13px;
+}
 
+/*.cards-container:hover {
+    transform: translateY(-10px);
 }
 
 .btn-icon {
@@ -37,3 +53,6 @@
     margin-right: auto;
     background-color: rgb(199, 201, 203);
 }
+.btn-icon:hover{
+    color: red;
+} */

@@ -49,7 +49,7 @@ function Index({ cards }) {
                 </section>
 
 
-                <section className='cards' id='cards-section'>
+                <section className='cards-section' id='cards-section'>
                     {cards ? loaded() : loading()}
                 </section>
 

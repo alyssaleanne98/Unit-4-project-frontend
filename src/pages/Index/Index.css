@@ -57,11 +57,15 @@ section {
   font-family: "prata";
 } */
 
-.cards {
+/* .cards{
   background-color: rgb(176, 182, 231);
   height: 850px;
+} */
+.cards-section {
+  height: 850px;
+  background-color: rgb(121, 45, 45);
+  flex-wrap: wrap;
 }
-
 .footer {
   background-color: whitesmoke;
   height: 300px;

@@ -7,7 +7,7 @@ import 'animate.css'
 
 function Component({ title, description, id }) {
     return (
-        <div className="cards">
+        <div className="flex">
             <Link className="link" to={`/cards/${id}`}>
                 <div className="cards-container">
                     <p className="cards-title"> {title} </p>
@@ -23,4 +23,4 @@ function Component({ title, description, id }) {
 export default Component;
 
 
-// line 10: forgot to add $ before {}
+// line 11: forgot to add $ before {}
