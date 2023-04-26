@@ -29,10 +29,11 @@ function Index({ cards }) {
     return (
         <>
             <main>
+                <div data-scroll-section> 
                 <section className="diagram" id='image-section'
-                    data-scroll //This attribute makes this section an independent scrollable container
-                    data-scroll-speed="2"
-                    data-scroll-section
+                    // data-scroll //This attribute makes this section an independent scrollable container
+                    // data-scroll-direction="horizontal"
+                    // data-scroll-speed="9"
                 >
 
                     <img className="brain-diagram" src="https://mhanational.org/sites/default/files/Picture1_0.png" ></img>
@@ -66,7 +67,9 @@ function Index({ cards }) {
                         <GitHubIcon className="github-icon">Github</GitHubIcon>
 
                     </span>
+                    
                 </section>
+                </div>
             </main>
         </>
 

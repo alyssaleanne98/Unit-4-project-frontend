@@ -115,5 +115,8 @@ section {
   margin: 10px;
 }
 .brain-diagram {
-  height: 630px;
+  height: 600px;
+}
+.diagram {
+  height: 40rem;
 }

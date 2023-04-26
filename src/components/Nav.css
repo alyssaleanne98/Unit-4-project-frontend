@@ -1,42 +1,39 @@
 .container {
-    color: #94bfa9;
     height: 225px;
-    background-color: #e6e3e1;
+    background-color: #f1ece8;
     
 }
 .app-title {
-    padding: 25px;
+    padding: 35px;
+    font-size: 18px;
     font-family: "prata";
-    color: rgb(149, 205, 156);
-    
+    color: rgb(12, 4, 88);
 }
-/* .app-title:hover {
-    animation: bounce;
-    animation-duration: 2s;
-    --animate-repeat: infinite;
-} */
-
-
+.main-title{
+    font-size: 3.5rem;
+    padding: 7px;
+}
 .link-cards{
     color: black;
-    padding: 20px;
-    font-size: 17px;
+    padding: 25px;
+    font-size: 1rem;
     font-family: "prata";
+    text-decoration: underline; 
 }
 .link-about{
     color: black;
     padding: 20px;  
-    font-size: 17px;
-    font-family: "prata";
-    
-    
+    font-size: 1rem;
+    font-family: "prata"; 
+    text-decoration: underline; 
 }
 .link-contact{
     color: black;
     padding: 20px; 
     /* border-left: 1px solid black;  */
-    font-size: 17px;
+    font-size: 1rem;
     font-family: "prata";
+    text-decoration: underline; 
 }
 
 
