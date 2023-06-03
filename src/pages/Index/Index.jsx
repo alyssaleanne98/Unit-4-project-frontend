@@ -61,7 +61,9 @@ function Index({ cards }) {
 
                     <span className="icons">
                         <MailOutlineIcon className="email-icon">EMAIL</MailOutlineIcon>
+                        <a href= "https://www.linkedin.com/in/alyssa-cervantes-alc/">
                         <LinkedInIcon className="linkedIn-icon">LinkedIn</LinkedInIcon>
+                        </a>
 
 
                         <GitHubIcon className="github-icon">Github</GitHubIcon>
